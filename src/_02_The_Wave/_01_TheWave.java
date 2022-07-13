@@ -20,7 +20,8 @@ public class _01_TheWave {
      */
     
     public static ArrayList<String> wave(String str) {
-        
+    	StringBuilder builder = new StringBuilder("str");
+    	builder.replace(str);
         return null;
     }
 }
